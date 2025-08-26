@@ -11,9 +11,8 @@ import gsapLogo from "./assets/tech_logo/gsap.png";
 import materialuiLogo from "./assets/tech_logo/materialui.png";
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
-import appwritelogo from "./assets/tech_logo/appwrite.png";
+import supabaseLogo from "./assets/tech_logo/supabaselogojpeg.jpeg";
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
-import firebaseLogo from "./assets/tech_logo/firebase.png";
 import pythonLogo from "./assets/tech_logo/python.png";
 import typescriptLogo from "./assets/tech_logo/typescript.png";
 import gitLogo from "./assets/tech_logo/git.png";
@@ -39,6 +38,7 @@ import sflogo from "./assets/education_logo/sflogo.webp";
 
 // Project Section Logo's
 import dinedashlogo from "./assets/work_logo/DineDash.png";
+import trellologo from "./assets/work_logo/trelloclone.png";
 
 export const SkillsInfo = [
   {
@@ -65,9 +65,8 @@ export const SkillsInfo = [
       { name: "Node JS", logo: nodejsLogo },
       { name: "Express JS", logo: expressjsLogo },
       { name: "MongoDB", logo: mongodbLogo },
-      { name: "Firebase", logo: firebaseLogo },
       { name: "PostgreSQL", logo: postgreLogo },
-      { name: "Appwrite", logo: appwritelogo },
+      { name: "Supabase", logo: supabaseLogo },
       { name: "Redis", logo: redislogo },
     ],
   },
@@ -173,5 +172,15 @@ export const projects = [
     tags: ["React Js", "Express", "Typescript", "Stripe", "Zustand", "MongoDb"],
     github: "https://github.com/ayushtiwari77/Dine-Dash-Official",
     webapp: "https://dinedashofficial.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "Trello-Clone",
+    description:
+      "A fullstack professional clone of Trello- A task and life management tool. TrelloClone helps teams move work forward. Collaborate, manage projects, and reach new productivity peaks. From high rises to the home office.Equipped with enterprise level authentication using Clerk , created on Nextjs and typescript with a complex drag and drop functionality to manage tasks.",
+    image: trellologo,
+    tags: ["NextJs", "Supabase", "Clerk", "Typescript"],
+    github: "https://github.com/ayushtiwari77/Trello-clone.git",
+    webapp: "https://trello-clone-pink-eta.vercel.app/",
   },
 ];
