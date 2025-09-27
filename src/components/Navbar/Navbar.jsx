@@ -131,7 +131,7 @@ const Navbar = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/ayush-tiwari-102b142a3/"
+                href="https://www.linkedin.com/in/tiwariayush07"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
