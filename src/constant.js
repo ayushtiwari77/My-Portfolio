@@ -4,29 +4,28 @@ import cssLogo from "./assets/tech_logo/css.png";
 import sassLogo from "./assets/tech_logo/sass.png";
 import javascriptLogo from "./assets/tech_logo/javascript.png";
 import reactjsLogo from "./assets/tech_logo/reactjs.png";
-import reduxLogo from "./assets/tech_logo/redux.png";
 import nextjsLogo from "./assets/tech_logo/nextjs.png";
 import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
 import gsapLogo from "./assets/tech_logo/gsap.png";
-import materialuiLogo from "./assets/tech_logo/materialui.png";
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
-import supabaseLogo from "./assets/tech_logo/supabaselogojpeg.jpeg";
+import supabaseLogo from "./assets/tech_logo/supabase.svg";
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
-import pythonLogo from "./assets/tech_logo/python.png";
 import typescriptLogo from "./assets/tech_logo/typescript.png";
 import gitLogo from "./assets/tech_logo/git.png";
 import githubLogo from "./assets/tech_logo/github.png";
-import vscodeLogo from "./assets/tech_logo/vscode.png";
-import postmanLogo from "./assets/tech_logo/postman.png";
-import mcLogo from "./assets/tech_logo/mc.png";
-import redislogo from "./assets/tech_logo/redis.png";
 import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
 import shadcnlogo from "./assets/tech_logo/shadcn.webp";
 import zodlogo from "./assets/tech_logo/zod.png";
 import zustandlogo from "./assets/tech_logo/zustand.svg";
+import formiklogo from "./assets/tech_logo/formik.png";
+import clerklogo from "./assets/tech_logo/clerk.svg";
+import arcjet from "./assets/tech_logo/arcjet.svg";
+import inngest from "./assets/tech_logo/inngest.jpeg";
+import graphql from "./assets/tech_logo/graphQL.svg";
+import socketio from "./assets/tech_logo/socketio.svg";
 
 // Experience Section Logo's
 import etechlogo from "./assets/company_logo/etechlogo.jpeg";
@@ -39,6 +38,7 @@ import sflogo from "./assets/education_logo/sflogo.webp";
 // Project Section Logo's
 import dinedashlogo from "./assets/work_logo/DineDash.png";
 import trellologo from "./assets/work_logo/trelloclone.png";
+import chatifylogo from "./assets/work_logo/chatify.png";
 
 export const SkillsInfo = [
   {
@@ -47,16 +47,14 @@ export const SkillsInfo = [
       { name: "HTML", logo: htmlLogo },
       { name: "CSS", logo: cssLogo },
       { name: "SASS", logo: sassLogo },
-      { name: "JavaScript", logo: javascriptLogo },
       { name: "React JS", logo: reactjsLogo },
-      { name: "Redux", logo: reduxLogo },
       { name: "Next JS", logo: nextjsLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
       { name: "GSAP", logo: gsapLogo },
-      { name: "Material UI", logo: materialuiLogo },
       { name: "ShadCn", logo: shadcnlogo },
       { name: "Zod", logo: zodlogo },
       { name: "Zustand", logo: zustandlogo },
+      { name: "Formik", logo: formiklogo },
     ],
   },
   {
@@ -67,7 +65,11 @@ export const SkillsInfo = [
       { name: "MongoDB", logo: mongodbLogo },
       { name: "PostgreSQL", logo: postgreLogo },
       { name: "Supabase", logo: supabaseLogo },
-      { name: "Redis", logo: redislogo },
+      { name: "Clerk", logo: clerklogo },
+      { name: "Arcjet", logo: arcjet },
+      { name: "Inngest", logo: inngest },
+      { name: "GraphQL", logo: graphql },
+      { name: "SocketIo", logo: socketio },
     ],
   },
   {
@@ -75,7 +77,6 @@ export const SkillsInfo = [
     skills: [
       { name: "JavaScript", logo: javascriptLogo },
       { name: "TypeScript", logo: typescriptLogo },
-      { name: "Python", logo: pythonLogo },
     ],
   },
   {
@@ -83,12 +84,13 @@ export const SkillsInfo = [
     skills: [
       { name: "Git", logo: gitLogo },
       { name: "GitHub", logo: githubLogo },
-      { name: "VS Code", logo: vscodeLogo },
-      { name: "Postman", logo: postmanLogo },
-      { name: "Compass", logo: mcLogo },
       { name: "Vercel", logo: vercelLogo },
       { name: "Netlify", logo: netlifyLogo },
     ],
+  },
+  {
+    title: "Database & Technologies",
+    skills: [{ name: "Git", logo: gitLogo }],
   },
 ];
 
@@ -182,5 +184,24 @@ export const projects = [
     tags: ["NextJs", "Supabase", "Clerk", "Typescript"],
     github: "https://github.com/ayushtiwari77/Trello-clone.git",
     webapp: "https://trello-clone-pink-eta.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Chatify",
+    description:
+      "A fullstack chat application that supports Real-Time messaging via socket.io . The teck stack used is React , Mongo , Express , Node. Along with that it has various futuristic features like Online/Offline presence indicators, Notifications and Typing sounds , Welcome emails , Api rate limiting via arject. The state management is handled using Zustand and UI is comination of TailwindCSS and DaisyUI ",
+    image: chatifylogo,
+    tags: [
+      "React",
+      "Express",
+      "MongoDB",
+      "Zustand",
+      "DaisyUi",
+      "Cloudinary",
+      "SocketIo",
+    ],
+    github:
+      "https://github.com/ayushtiwari77/Chatify-Public/tree/main/Chatify-main",
+    webapp: "https://chatify-88jzh.sevalla.app/",
   },
 ];

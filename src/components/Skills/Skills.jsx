@@ -18,7 +18,7 @@ const Skills = () => {
       </div>
 
       {/* skill categories */}
-      <div className="flex  flex-col md:flex-row  flex-wrap gap-1 lg:gap-5 py-10 items-center md:items-stretch justify-between">
+      <div className="flex justify-center  flex-col md:flex-row  flex-wrap gap-1 lg:gap-5 py-10 items-center md:items-stretch ">
         {SkillsInfo.map((category) => (
           <div
             key={category.title}
