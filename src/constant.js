@@ -24,7 +24,6 @@ import formiklogo from "./assets/tech_logo/formik.png";
 import clerklogo from "./assets/tech_logo/clerk.svg";
 import arcjet from "./assets/tech_logo/arcjet.svg";
 import inngest from "./assets/tech_logo/inngest.jpeg";
-import graphql from "./assets/tech_logo/graphQL.svg";
 import socketio from "./assets/tech_logo/socketio.svg";
 
 // Experience Section Logo's
@@ -68,7 +67,6 @@ export const SkillsInfo = [
       { name: "Clerk", logo: clerklogo },
       { name: "Arcjet", logo: arcjet },
       { name: "Inngest", logo: inngest },
-      { name: "GraphQL", logo: graphql },
       { name: "SocketIo", logo: socketio },
     ],
   },
