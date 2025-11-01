@@ -20,11 +20,20 @@ import postgreLogo from "./assets/tech_logo/postgre.png";
 import shadcnlogo from "./assets/tech_logo/shadcn.webp";
 import zodlogo from "./assets/tech_logo/zod.png";
 import zustandlogo from "./assets/tech_logo/zustand.svg";
-import formiklogo from "./assets/tech_logo/formik.png";
+import reduxlogo from "./assets/tech_logo/redux.svg";
 import clerklogo from "./assets/tech_logo/clerk.svg";
 import arcjet from "./assets/tech_logo/arcjet.svg";
 import inngest from "./assets/tech_logo/inngest.jpeg";
 import socketio from "./assets/tech_logo/socketio.svg";
+import sqllogo from "./assets/tech_logo/sql.svg";
+import mysqllogo from "./assets/tech_logo/mysqllogo.svg";
+import mongooselogo from "./assets/tech_logo/mongoose.png";
+import prismalogo from "./assets/tech_logo/prismalogo.svg";
+import neondb from "./assets/tech_logo/neondb.svg";
+import cloudinarylogo from "./assets/tech_logo/cloudinary.svg";
+import imagekit from "./assets/tech_logo/imagekit.svg";
+import sevalla from "./assets/tech_logo/sevalla.jpeg";
+import render from "./assets/tech_logo/render.png";
 
 // Experience Section Logo's
 import etechlogo from "./assets/company_logo/etechlogo.jpeg";
@@ -53,7 +62,7 @@ export const SkillsInfo = [
       { name: "ShadCn", logo: shadcnlogo },
       { name: "Zod", logo: zodlogo },
       { name: "Zustand", logo: zustandlogo },
-      { name: "Formik", logo: formiklogo },
+      { name: "Redux Toolkit", logo: reduxlogo },
     ],
   },
   {
@@ -61,12 +70,11 @@ export const SkillsInfo = [
     skills: [
       { name: "Node JS", logo: nodejsLogo },
       { name: "Express JS", logo: expressjsLogo },
-      { name: "MongoDB", logo: mongodbLogo },
-      { name: "PostgreSQL", logo: postgreLogo },
+
       { name: "Supabase", logo: supabaseLogo },
       { name: "Clerk", logo: clerklogo },
       { name: "Arcjet", logo: arcjet },
-      { name: "Inngest", logo: inngest },
+
       { name: "SocketIo", logo: socketio },
     ],
   },
@@ -75,20 +83,32 @@ export const SkillsInfo = [
     skills: [
       { name: "JavaScript", logo: javascriptLogo },
       { name: "TypeScript", logo: typescriptLogo },
+      { name: "SQL", logo: sqllogo },
+    ],
+  },
+  {
+    title: "Databases",
+    skills: [
+      { name: "MongoDB", logo: mongodbLogo },
+      { name: "PostgresSQL", logo: postgreLogo },
+      { name: "MySql", logo: mysqllogo },
+      { name: "Mongoose", logo: mongooselogo },
+      { name: "Prisma", logo: prismalogo },
+      { name: "NeonDB", logo: neondb },
     ],
   },
   {
     title: "Tools",
     skills: [
       { name: "Git", logo: gitLogo },
-      { name: "GitHub", logo: githubLogo },
       { name: "Vercel", logo: vercelLogo },
       { name: "Netlify", logo: netlifyLogo },
+      { name: "Cloudinary", logo: cloudinarylogo },
+      { name: "ImageKit", logo: imagekit },
+      { name: "Inngest", logo: inngest },
+      { name: "Sevalla", logo: sevalla },
+      { name: "Render", logo: render },
     ],
-  },
-  {
-    title: "Database & Technologies",
-    skills: [{ name: "Git", logo: gitLogo }],
   },
 ];
 
